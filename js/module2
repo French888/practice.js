@@ -1,0 +1,13 @@
+
+function getExtremeElements(array) {
+  
+const firstElement = array.shift();
+const lastElement = array.pop(); 
+const newArray = [firstElement, lastElement];               
+return newArray;
+
+  
+}
+console.log(getExtremeElements([1, 2, 3, 4, 5]));
+console.log(getExtremeElements(["Earth", "Mars", "Venus"]));
+console.log(getExtremeElements(["apple", "peach", "pear", "banana"]));
